@@ -1,0 +1,55 @@
+*{box-sizing: border-box;}
+
+h1{color: rgb(2, 2, 15); 
+text-align: center;
+padding: 5px;
+border:dashed solid black;
+margin:auto;
+
+height: 70px;
+background-color: rgb(169, 211, 240);
+
+}
+
+body{ 
+margin: 70px;
+margin-top: 10px;
+padding: 10px;
+font-size: 20px;}
+.container{background-color:rgb(245, 230, 230);
+    padding: 10px;
+    border: 2px solid lightpink;
+    border-radius: 5px;
+    
+}
+
+input[type="text"],
+input[type="adress"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+textarea{width:100%;
+    padding: 12px;
+    border: solid cornsilk;
+    margin: 5px;
+    border-radius: 3px;
+
+
+}
+fieldset{background-color: #fff;
+    border: solid cornsilk;}
+
+    input[type="submit"] { 
+        background-color: blue;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        width: 100%;
+    }
+    input[type="submit"]:hover{
+        background-color: rgb(118, 199, 128);
+    }
+
